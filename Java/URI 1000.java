@@ -3,7 +3,7 @@ import java.io.IOException;
  * Print Hello World!
  * @author Zahin
  */
-public class B1000 {
+public class main {
     
     public static void main(String[] args) throws IOException {
  
