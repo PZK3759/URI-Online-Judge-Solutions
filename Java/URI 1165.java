@@ -20,15 +20,15 @@ public class Main {
         for(int i = 0; i<N;i++){
             
             int X = sc.nextInt();
-            int p = 1;
+            boolean p = true;
             for(int j = 2; j < X; j++){
                 if(X % j ==0){
-                    p = 0;
+                    p = false;
                     break;
                 }
                 
             }
-            if(p == 1){
+            if(p){
                 
                 System.out.println(X+" eh primo");
             }else{
